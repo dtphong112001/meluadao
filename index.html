@@ -1,11 +1,95 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Meluadao</title>
-  </head>
-  <body>
-    <h1>Chào mừng đến với shop bán mè của Phong 😺</h1>
-    <p>Trang web đang được hoàn thiện...</p>
-  </body>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop Bán Mè - Meluadao</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fffaf0;
+    }
+    header {
+      background-color: #ffcccb;
+      color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .product {
+      background-color: #fff;
+      border: 1px solid #eee;
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .product h3 {
+      margin: 10px 0 5px;
+    }
+    .product p {
+      margin: 0;
+      color: #888;
+    }
+    .buy-btn {
+      margin-top: 10px;
+      background-color: #ff6666;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #ffcccb;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🐾 Chào mừng đến với Meluadao 🐾</h1>
+    <p>Shop bán mè chất lượng cao, lừa tình chứ không lừa đảo 😽</p>
+  </header>
+
+  <section class="products">
+    <div class="product">
+      <img src="https://placekitten.com/300/200" alt="Mè 1">
+      <h3>Mè dễ thương 1</h3>
+      <p>Giá: 99.000đ</p>
+      <button class="buy-btn">Mua ngay</button>
+    </div>
+    <div class="product">
+      <img src="https://placekitten.com/301/200" alt="Mè 2">
+      <h3>Mè ngủ gật</h3>
+      <p>Giá: 129.000đ</p>
+      <button class="buy-btn">Mua ngay</button>
+    </div>
+    <div class="product">
+      <img src="https://placekitten.com/302/200" alt="Mè 3">
+      <h3>Mè sang chảnh</h3>
+      <p>Giá: 199.000đ</p>
+      <button class="buy-btn">Mua ngay</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>📞 Liên hệ: zalo.me/phongbanme | © 2025 Meluadao</p>
+  </footer>
+</body>
 </html>
